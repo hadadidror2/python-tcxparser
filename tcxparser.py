@@ -16,6 +16,9 @@ class TCXParser:
     def hr_values(self):
         return [int(x.text) for x in self.root.xpath('//ns:HeartRateBpm/ns:Value', namespaces={'ns': namespace})]
 
+    def power_values(self):
+        return [int(x.text) for x in self.root.xpath('//ns3:Watts/', namespaces={'ns': namespace})]
+    
     def altitude_points(self):
         return [float(x.text) for x in self.root.xpath('//ns:AltitudeMeters', namespaces={'ns': namespace})]
 
