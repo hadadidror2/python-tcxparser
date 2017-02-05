@@ -5,7 +5,7 @@ __version__ = '0.7.1'
 setup(
     name='python-tcxparser',
     version=__version__,
-    author='Vinod Kurup',
+    author='Vinod Kurup added stuff Dror Hadadi',
     author_email='vinod@kurup.com',
     py_modules=['tcxparser', 'test_tcxparser'],
     url='https://github.com/vkurup/python-tcxparser/',
